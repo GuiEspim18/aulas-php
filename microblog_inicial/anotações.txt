@@ -1,0 +1,11 @@
+Control panel username:	b12_28778081
+Control panel password:	**********
+Control panel URL:	cpanel.byethost12.com
+MySQL username	b12_28778081
+MySQL password:	**********
+MySQL hostname:	sql209.byethost12.com
+FTP username:	b12_28778081
+FTP password:	**********
+FTP host name:	ftp.byethost12.com
+Your Website URL:	http://microblog.byethost12.com
+ 	 

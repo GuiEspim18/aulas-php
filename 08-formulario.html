@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário HTML</h1>
+    <hr>
+    
+    <!-- quando alguém completar o form ele vai chamar o processamento.php, isso acontece pois ele está com o método post. Se usarmos o método get, os dados vão para a url. -->
+    <!-- O atributo required faz com que o campo de texto seja obrigatóriamente preenchido -->
+    <form action="processamento.php" method="post">
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+
+        <p>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="6" required></textarea>
+        </p>
+        <button name="enviar">Enviar</button>
+        <!-- Quando eu clicar em enviar ele vai disparar o processamento.php -->
+    </form>
+</body>
+</html>
